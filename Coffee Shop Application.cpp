@@ -17,7 +17,7 @@
 
 using namespace std;
 
-//global varibles
+///global varibles
 const double largeCup = 2.0;
 const double mediumCup = 1.9;
 const double smallCup =  1.75;
