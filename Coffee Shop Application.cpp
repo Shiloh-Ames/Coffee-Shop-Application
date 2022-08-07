@@ -17,7 +17,7 @@
 
 using namespace std;
 
-///global varibles
+//global varibles
 const double largeCup = 2.0;
 const double mediumCup = 1.9;
 const double smallCup =  1.75;
@@ -95,7 +95,7 @@ int main() {
 //main menu function
 void showMainMenu()
 {
-  cout << endl <<"--Enter one of the followin1g--" << endl <<endl;
+  cout << endl <<"--Enter one of the following--" << endl <<endl;
   cout <<  "1: Receipt calculator " << endl;
   cout <<  "2: Cups sold " << endl;
   cout <<  "3: Coffee Sold " << endl;
@@ -118,7 +118,7 @@ void cupsSold(double totSml , double totMed , double totLrg)
 void coffeeSold(double totSml , double totMed , double totLrg)
 {
   cout << "______________________" << endl;
-  cout << "Total amount of ounces of coffee sold" << endl << "-->" << totSml + totMed + totLrg << endl;
+  cout << "Total amount of ounces of coffee sold" << endl << "-->" << (totSml * smallOunce ) + (totMed * mediumOunce ) + (totLrg * largeOunce ) << endl;
 }
 
 //total revenue function
